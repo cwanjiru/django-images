@@ -9,6 +9,7 @@
 <form action="." method="POST">
     {{form.as_p}}
     {% csrf_token %}
+    <p><input type="submit" value="login"></p>
 </form>
 
  {% endblock %}
